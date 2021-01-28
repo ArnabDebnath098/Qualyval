@@ -37,7 +37,7 @@ export default function ControlledAccordions() {
   }, []);
 
   return (
-    <div className={classes.root} className="blogs">
+    <div className="blogs">
       <div className="blogHeader">
         <div className="headerLeft">
           <div className="logo"></div>
