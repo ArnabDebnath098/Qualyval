@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+.howWeDo {
+  display: flex;
+  height: 100vh;
+  overflow: hidden !important;
+  background-color: white;
+}
+.howWeDo-left {
+  background-color: #f6f6f600;
+  flex: 0.4;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  color: #423f3f;
+}
+.howWeDo-left > h1 {
+  margin: 99px 0;
+  font-size: xxx-large;
+  color: #23325f;
+}
+.howWeDo-right {
+  border-radius: 20px;
+  margin: 31px;
+  border: 8px solid#11abc1;
+  background-color: #ebecff;
+  overflow: hidden;
+  flex: 0.6 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.block {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin: 20px;
+  width: 100%;
+}
+.block-content {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+.block-content > li {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.block-content > li > h3 {
+  color: #004b6e;
+}
+.block-content > li > p {
+  font-size: 13px;
+  padding-right: 20px;
+  color: rgb(39, 39, 39);
+}
+.circle {
+  height: 45px;
+  width: 45px;
+  background-color: #11abc1;
+  border-radius: 50%;
+}
+
+.loader {
+  position: relative;
+  top: -54px;
+}
+@media only screen and (max-width: 500px) {
+  .howWeDo {
+    flex-direction: column;
+    height: 100%;
+  }
+  .howWeDo-left > h1 {
+    margin: 0px;
+    font-size: 35px;
+  }
+  .loader {
+    top: -6px;
+  }
+  .howWeDo-right {
+    margin: 14px;
+    padding: 10px;
+  }
+
+  .block {
+    margin:  16px auto;
+  }
+  .block-content > h3 {
+    font-size: 14px;
+  }
+  .block-content > p {
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 900px) {
+  .howWeDo {
+    flex-direction: column;
+    height: 100%;
+  }
+  .howWeDo-left > h1 {
+    margin: 0px;
+    font-size: 35px;
+  }
+  .loader {
+    top: -6px;
+  }
+  .howWeDo-right {
+    margin: 14px;
+  }
+  .block-content > h3 {
+    font-size: 14px;
+  }
+  .block-content > p {
+    font-size: 10px;
+  }
+}

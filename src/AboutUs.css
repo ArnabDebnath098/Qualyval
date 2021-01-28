@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+.aboutUs {
+  height: 140vh;
+  background: rgb(247, 249, 253);
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden !important;
+  font-family: "Poppins", sans-serif;
+  clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+}
+.aboutusTop {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden !important;
+  position: relative;
+  top: 74px;
+}
+.aboutusTop-left {
+  flex: 0.75;
+}
+.aboutusTop-left > h1 {
+  margin-left: 50px;
+  color: #002147;
+  position: relative;
+  top: -157px;
+}
+.aboutusTop-left > p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #414141;
+  width: 69%;
+  padding: 40px;
+  position: relative;
+  top: -155px;
+}
+.triangle {
+  background-image: url("./assets/images/Polygon\ 1.png");
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  opacity: 0.6;
+  height: 270px;
+  position: relative;
+  top: 98px;
+  left: 30px;
+}
+.triangle > img {
+  width: 500px;
+  opacity: 0.6;
+  height: 224px;
+  margin: 30px;
+  margin-top: 157px;
+}
+.aboutusTop-right {
+  padding: 20px;
+  position: relative;
+  top: -60px;
+  flex: 0.25;
+}
+
+.aboutUsBottom {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin: 30px;
+  flex: 0.5;
+}
+/* .aboutUsBottom {
+  position: relative;
+  top: -160px;
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+  margin: 30px;
+} */
+.card {
+  border-radius: 50%;
+  margin: 0 auto;
+  transition: all 0.3s ease-in-out;
+  height: 5px;
+  width: 22%;
+  cursor: pointer;
+}
+.card:hover {
+  height: 350px;
+  width: 22%;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+}
+.card .wrapper {
+  padding: 20px;
+  height: 60px;
+  width: 60px;
+}
+.card .wrapper img {
+  background: #826cff;
+  position: relative;
+  z-index: 20;
+  border-radius: 50%;
+  display: block;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  transition: all 0.3s ease;
+  padding: 8px;
+}
+.card .wrapper h1 {
+  color: #002147;
+  font-size: 21px;
+  font-weight: 800;
+  padding: 10px;
+  width: 108px;
+  line-height: 25px;
+}
+
+.card .content {
+  visibility: hidden;
+  color: #423f3f00;
+  width: 100%;
+}
+.card:hover .content {
+  visibility: visible;
+  color: rgb(37, 37, 37);
+  width: 80%;
+  font-size: 13px;
+  margin-top: 81px;
+  transition: all 0.6s ease-in-out;
+  padding: 1px 20px 10px 20px !important;
+}
+
+.aboutusTop-right > h1 {
+  color: #00084d;
+  font-size: 28px;
+  width: 22px;
+  font-weight: 600;
+  margin: 10px 18px;
+}
+.aboutusTop-right > ul {
+  color: #505050;
+  font-weight: 600;
+  line-height: 33px;
+}
+.utube {
+  background-color: #00800000;
+  outline-width: 0;
+  border: 2px solid #000157;
+  border-radius: 50px;
+  padding: 8px 32px;
+  color: #000850;
+  font-size: 15px;
+  margin: 15px 20px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.buttonIcon {
+  color: #00084d !important;
+}
+@media only screen and (max-width: 500px) {
+  .aboutUs {
+    height: 305vh;
+  }
+  .aboutusTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 23px;
+  }
+  .triangle > img {
+    width: 314px;
+    opacity: 0.6;
+    height: 169px;
+    margin: 30px;
+    margin-top: 6px;
+  }
+  .aboutusTop-content > h1 {
+    text-align: center;
+    margin: auto;
+  }
+  .aboutusTop-content > p {
+    width: auto;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .option1 {
+    position: relative;
+    top: -237px;
+    width: 297px;
+  }
+  .option1 > p {
+    font-size: 12px;
+    text-align: center;
+  }
+  .aboutUsBottom {
+    flex-direction: column;
+  }
+  .aboutUsBottom-left {
+    position: relative;
+    top: -77px;
+    width: 100%;
+    margin: 0px;
+  }
+  .aboutUsBottom-right {
+    padding: 0px;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .aboutUsBottom-right > h1 {
+    font-size: 19px;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+  }
+  .card .wrapper img {
+    height: 30px;
+    width: 30px;
+  }
+  .card .wrapper h1 {
+    font-size: 11px;
+    padding: 10px 0px;
+    width: 108px;
+  }
+  .card:hover .content {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    padding: 15px !important;
+  }
+  .content > p {
+    font-size: 10px;
+  }
+  .card:hover {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 900px) {
+  .aboutusTop-content > h1 {
+    text-align: start;
+  }
+  .aboutUs {
+    height: 165vh;
+  }
+  .aboutusTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .triangle > img {
+    width: 314px;
+    opacity: 0.6;
+    height: 169px;
+    margin: 30px;
+    margin-top: 6px;
+  }
+
+  .aboutusTop-content > p {
+    width: auto;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .option1 {
+    position: relative;
+    top: -237px;
+    width: 297px;
+  }
+  .option1 > p {
+    font-size: 12px;
+    text-align: center;
+  }
+  .aboutUsBottom {
+    flex-direction: column;
+  }
+  .aboutUsBottom-left {
+    position: relative;
+    top: -77px;
+    width: 100%;
+    margin: 0px;
+  }
+  .aboutUsBottom-right {
+    padding: 0px;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .aboutUsBottom-right > h1 {
+    font-size: 19px;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+  }
+  .card .wrapper img {
+    height: 30px;
+    width: 30px;
+  }
+  .card .wrapper h1 {
+    font-size: 11px;
+    padding: 10px 0px;
+    width: 108px;
+  }
+  .card:hover .content {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    padding: 15px !important;
+  }
+  .content > p {
+    font-size: 10px;
+  }
+  .card:hover {
+    width: 300px;
+    height: 300px;
+  }
+}

@@ -1,0 +1,89 @@
+.blogs {
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+}
+.blog-cardImage {
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+}
+.blogCard {
+  background-color: whitesmoke !important;
+  margin: 20px;
+  border-radius: 20px !important;
+  border: none !important;
+  border: 3px solid rgb(0, 62, 90) !important;
+}
+.makeStyles-secondaryHeading-3 {
+  display: flex;
+  align-items: center;
+}
+.contentHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 30px;
+  justify-content: space-evenly;
+}
+.contentHeader > h1 {
+  color: #657eff;
+}
+.MuiAccordion-root:before {
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+.MuiAccordion-root.Mui-expanded {
+  margin: 20px !important;
+}
+.MuiAccordion-root.Mui-expanded:last-child {
+  margin: 20px !important;
+}
+.blogHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blogHeader > h1 {
+  margin-right: 40px;
+  font-size: 35px;
+}
+.contentHeader > p > span {
+  margin-left: 20px;
+  font-size: 12px;
+}
+.down > h3 {
+  margin-left: 25px;
+}
+.down > p {
+  margin-left: 40px;
+}
+@media only screen and (max-width: 500px) {
+  .MuiAccordionSummary-content {
+    flex-direction: column;
+    align-items: center !important;
+  }
+  .MuiAccordionSummary-root {
+    display: flex;
+    flex-direction: column;
+  }
+  .blog-cardImage {
+    width: 305px;
+  }
+  .contentHeader > h1 {
+    width: 300px;
+    font-size: x-large;
+  }
+  .blogHeader {
+    flex-direction: column;
+  }
+  .blogHeader > h1 {
+    margin-right: 0px;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 900px) {
+  .blogHeader > h1 {
+    margin-right: 0px;
+  }
+  .blog-cardImage {
+    width: 340px;
+  }
+}
