@@ -18,10 +18,7 @@ function MainBody() {
 
         <div className="clientsReview" data-aos="zoom-in">
           <div className="profile">
-            <img
-              src="https://media-exp1.licdn.com/dms/image/C4E03AQEHOHW811nGbw/profile-displayphoto-shrink_800_800/0/1520785250376?e=1622678400&v=beta&t=yF5GuXsC75E3EKx0H0tevUvowXc7FhxenhGU2g-hu24"
-              alt="profileImage"
-            />
+            <div className="profile-Image"></div>
             <div className="profileName">
               <h3>Paul Croke</h3>
               <p>President at Hinrichs Estimating</p>
