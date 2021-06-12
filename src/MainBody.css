@@ -395,10 +395,14 @@
   align-items: center;
   margin-bottom: 10px;
 }
-.profile > img {
+.profile-Image {
   border-radius: 50%;
   height: 40px;
+  width: 40px;
   margin-right: 10px;
+  background-image: url("./assets/images/1520785250376.jpg");
+  background-size: cover;
+  background-position: center;
 }
 .profileName > h3 {
   font-size: 13px;
