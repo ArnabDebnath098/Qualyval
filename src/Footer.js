@@ -27,7 +27,7 @@ function Footer() {
         <div className="footer-contact">
           <h1> Contact Us</h1>
           <a href="aboutus.html">
-            <PhoneIcon className="footer-Icon" /> +441908751476
+            <PhoneIcon className="footer-Icon" /> +441908103333
           </a>
           <a  href="aboutus.html">
             <MailOutlineIcon className="footer-Icon" /> info@qualyval.com
