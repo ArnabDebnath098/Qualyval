@@ -81,9 +81,7 @@ function OurClients() {
                 alt="fendi"
               />
             </div>
-            <div className="box boxDesign-3" data-aos="zoom-in">
-              <img src="https://i.ibb.co/Lt2kZB2/bt-business-logo-1.png" alt="fendi" />
-            </div>
+            
             <div className="box boxDesign-4" data-aos="zoom-in">
               <img
                 src="https://www.bendbal.com.au/wp-content/uploads/2019/02/get-capital-logo.png"
