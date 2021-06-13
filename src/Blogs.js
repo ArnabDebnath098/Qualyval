@@ -49,7 +49,7 @@ export default function ControlledAccordions() {
           />
           <div className="contentHeader">
             <p>
-              Neeraj <span> November 22, 2019</span>
+               <span> November 22, 2019</span>
             </p>
             <h1>What are Intelligent Robots?</h1>
             <Typography variant="body2" color="textSecondary" component="p">
@@ -107,7 +107,7 @@ export default function ControlledAccordions() {
           />
           <div className="contentHeader">
             <p>
-              Neeraj <span> June 16, 2020</span>
+               <span> June 16, 2020</span>
             </p>
             <h1>RPA and its advantages!</h1>
             <Typography variant="body2" color="textSecondary" component="p">
@@ -173,7 +173,7 @@ export default function ControlledAccordions() {
           />
           <div className="contentHeader">
             <p>
-              Neeraj <span> June 16, 2020</span>
+              <span> June 16, 2020</span>
             </p>
             <h1>AI and its advantages!</h1>
             <Typography variant="body2" color="textSecondary" component="p">
